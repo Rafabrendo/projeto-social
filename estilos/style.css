@@ -8,8 +8,8 @@
 }
 
 html, body{
-    height: 100vh;
-    width: 100vw;
+    max-height: 100vh;
+    max-width: 100vw;
     background-color: black;
 
 }
@@ -45,4 +45,23 @@ iframe#tela{
     left: 22px;
     width: 267px;
     height: 472px;
+}
+
+section#redes-sociais > a > img{
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
+    padding: 5px;
+    height: 40px;
+    position: relative;
+    top: 34px;
+    left: 92%;
+    display: list-item;
+    /* transition: 1s; */
+    /* box-sizing: border-box; */
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.315);
+    transform: translate(-7px, -7px);
+    transition: transform 1s;
 }
